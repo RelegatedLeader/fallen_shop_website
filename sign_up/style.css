@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff; /* Text color */
+    font-family: Arial, sans-serif; /* Use a common font */
+    background-color: black;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for the container */
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+}
+
+input[type="text"],
+input[type="password"], input[type="email"] {
+    background-color: #555; /* Darker input background */
+    color: #fff; /* Text color for inputs */
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Rounded corners for inputs */
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#sign_up {
+    background-color: #f0f0f0; /* Lighter background for the button */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none;
+    font-weight: bold; /* Make the text bold */
+    cursor: pointer; /* Add pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners for the button */
+    color: #333; /* Text color for the button */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+#sign_up:hover {
+    background-color: #ddd; /* Lighter background on hover */
+}

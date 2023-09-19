@@ -1,0 +1,74 @@
+/* Apply styles to all elements */
+* {
+    padding: 0;
+    margin: 0 auto; /* Center horizontally */
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+
+/* Style the body element */
+body {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100vh;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Container styles (if needed) */
+#container label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 10px;
+
+}
+
+#email{
+    background-color: #555; /* Darker input background */
+    padding: 5px;
+    
+}
+
+
+
+
+/* Button styles */
+#send_code_button {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 20px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    justify-items: center;
+
+
+}
+
+/* Button hover effect */
+#send_code_button:hover {
+    background-color: #ddd; /* Lighter background on hover */
+}
+
+
+
+#go_back{
+    background-color: white;
+    color:black;
+    padding:7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    font-weight: 100;
+}
+
+#go_back:hover{
+    background-color: #ddd; /* Lighter background on hover */
+}
