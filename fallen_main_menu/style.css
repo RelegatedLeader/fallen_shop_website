@@ -1,0 +1,58 @@
+* {
+    background-color: black;
+    color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#breadcrumb {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#breadcrumb_logo {
+    width: auto;
+    height: 80px;
+}
+
+#white_dropdown_arrow{
+    width: auto;
+    height: 80px;
+}
+
+#breadcrumb_menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+
+}
+
+#breadcrumb_menu li {
+    margin-right: 20px;
+    left: 50%; 
+
+}
+
+#breadcrumb_menu li:last-child {
+    margin-right: 0;
+}
+
+#breadcrumb_menu li a {
+    margin: 50px 10px; /* Adjust the left and right margins for centering */
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px; /* Adjust the font size */
+}
+
+#cart {
+    width: auto;
+    height: 80px;
+    margin-left: auto;
+}

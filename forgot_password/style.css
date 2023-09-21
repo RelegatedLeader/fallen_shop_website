@@ -55,19 +55,26 @@ h1{
 
 
 
-#go_back{
-    background-color: white;
+#go_back_button{
+    background-color: #f0f0f0; /* Lighter background for the button */
     color:black;
-    padding:7px;
+    padding: 10px 20px; /* Add padding to the button */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    font-weight: bold; /* Make the text bold */
     position: fixed;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
     font-weight: 100;
+    border: none;
+    cursor: pointer; /* Add pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners for the button */
+    color: #333; /* Text color for the button */
+    transition: background-color 0.3s; /* Smooth background color transition */
+
 }
+
 
 #go_back:hover{
     background-color: #ddd; /* Lighter background on hover */

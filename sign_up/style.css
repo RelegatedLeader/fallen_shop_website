@@ -44,6 +44,21 @@ input[type="password"], input[type="email"] {
     transition: background-color 0.3s; /* Smooth background color transition */
 }
 
+
 #sign_up:hover {
+    background-color: #ddd; /* Lighter background on hover */
+}
+
+#go_back_button{
+    background-color: #f0f0f0; /* Lighter background for the button */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none;
+    font-weight: bold; /* Make the text bold */
+    cursor: pointer; /* Add pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners for the button */
+    color: #333; /* Text color for the button */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+#go_back_button:hover {
     background-color: #ddd; /* Lighter background on hover */
 }

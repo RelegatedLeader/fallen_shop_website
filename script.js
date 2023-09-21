@@ -11,13 +11,15 @@ function login() {
     let enteredUsername = your_username.value;
     let enteredPassword = your_password.value;
 
-    if (enteredUsername === basic_username && enteredPassword === basic_password) {
+
+    //the order matters! the if and else where switched at first 
+    if (enteredUsername === "" || enteredPassword === "") {
+        alert('Please enter your credentials');
+    } else if (enteredUsername === basic_username && enteredPassword === basic_password) {
         let website = "fallen_main_menu/fallen_main_menu.html";
         window.location.href = website;
-    } else if (enteredUsername !== basic_username || enteredPassword !== basic_password) {
-        alert('Your credentials are incorrect');
     } else {
-        alert('Please enter your credentials');
+        alert('Your credentials are incorrect');
     }
 }
 

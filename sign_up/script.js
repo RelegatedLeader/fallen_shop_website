@@ -1,4 +1,5 @@
 let sign_up_button = document.getElementById('sign_up');
+let go_back_button = document.getElementById('go_back_button');
 
 function sign_up() {
     let first_name = document.getElementById('first_name').value;
@@ -26,3 +27,15 @@ function check_password() {
 }
 
 sign_up_button.addEventListener('click', sign_up);
+
+
+
+//go back button
+
+go_back_button.addEventListener('click', function(){
+
+    let url = "../index.html";
+    window.location.href = url;
+
+
+});
