@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#1c252a;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+#back_button {
+    width: 40px;
+    height: 40px;
+    display: inline-flex; /* Use inline-flex to align text and elements better */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Add a border for a button-like appearance */
+    border-radius: 4px; /* Rounded corners for a softer look */
+    cursor: pointer; /* Show a pointer cursor to indicate interactivity */
+    background-color: black; /* Background color */
+    transition: background-color 0.2s, transform 0.2s; /* Add transitions for a hover effect */
+}
+
+#back_button:hover {
+    background-color: #ddd; /* Change background color on hover */
+    transform: scale(1.05); /* Slightly scale up the button on hover */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Gap between items */
+    max-width: 800px; /* Limit container width */
+    margin: 20px auto; /* Center the grid */
+    color:black;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.grid-item p {
+    font-size: 14px;
+    color: #888;
+}
+
+.grid-item span {
+    font-size: 18px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+
+#add_to_cart{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+#add_to_cart:hover{
+    background-color: gold;
+    color:black;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+#grid-container2{
+    display: grid;
+    max-width: 800px;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 auto;
+    gap:20px;
+    color:black;
+
+
+}
+
+.grid-item2{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+
+.grid-item2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid-item2 h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.grid-item2 p {
+    font-size: 14px;
+    color: #888;
+}
+
+.grid-item2 span {
+    font-size: 18px;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+
+

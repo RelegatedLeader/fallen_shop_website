@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    color: white;
+
+}
+
+#back_button{
+    height: 50px;
+    width: 50px;
+}
+
+
+#current_total{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+
+#pay_button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    background-color: #f0f0f0; /* Lighter background for the button */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none;
+    font-weight: bold; /* Make the text bold */
+    cursor: pointer; /* Add pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners for the button */
+
+}
+
+#pay_button:hover{
+    background-color: #ddd; /* Lighter background on hover */
+
+}

@@ -1,0 +1,11 @@
+/* Global Styles (for both pages) */
+body {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: flex-start; /* Align to the top */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Ensure the body covers the entire viewport height */
+    margin: 0;
+    background-color: #1c252a;
+    color: white;
+}

@@ -1,0 +1,79 @@
+body {
+  
+    margin: 0;
+    background-color:#1c252a;
+    overflow: hidden;
+}
+
+.settings-menu {
+    display: flex;
+    width: 12%;
+    flex-direction: column; /* Display options vertically */
+    align-items: flex-start; /* Align options to the left */
+    height: 100%; /* Cover the full height of the viewport */
+    position: fixed; /* Make the menu stay in place */
+    left: 0; /* Align to the left side */
+    top: 0; /* Start from the top */
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    overflow-y: auto; /* Add vertical scrolling if needed */
+    background-color: rgb(75, 72, 72);
+    font-weight: 700;
+
+}
+
+
+#back_button {
+    width: 40px;
+    height: 40px;
+    display: inline-flex; /* Use inline-flex to align text and elements better */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* Add a border for a button-like appearance */
+    border-radius: 4px; /* Rounded corners for a softer look */
+    cursor: pointer; /* Show a pointer cursor to indicate interactivity */
+    background-color: black; /* Background color */
+    transition: background-color 0.2s, transform 0.2s; /* Add transitions for a hover effect */
+}
+
+#back_button:hover {
+    background-color: #ddd; /* Change background color on hover */
+    transform: scale(1.05); /* Slightly scale up the button on hover */
+}
+
+
+.option {
+    margin-right:  15px;
+    margin-bottom: 10px; /* Add some spacing between options */
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 95%;
+
+
+}
+
+.option:hover {
+    background-color: #ddd;
+}
+
+
+
+#account_settings{
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: flex-start;
+align-content: flex-start;
+
+
+
+}

@@ -56,3 +56,23 @@ body {
     text-decoration: none;
     margin-right: 10px; /* Add spacing between links */
 }
+
+
+#button_container {
+    display: flex; /* Make the container flex */
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+#button_container a {
+    display: flex; /* Make the anchor elements flex containers */
+    align-items: center; /* Center the items vertically */
+    margin-left: 5px; /* Add margin between the icons */
+
+
+}
+
+#button_container a img {
+    width: 25px;
+    height: 25px;
+}

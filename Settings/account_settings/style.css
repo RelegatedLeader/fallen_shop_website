@@ -1,0 +1,31 @@
+/* Global Styles (for both pages) */
+body {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: flex-start; /* Align to the top */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Ensure the body covers the entire viewport height */
+    margin: 0;
+    background-color: #1c252a;
+    color: white;
+}
+
+/* Page-Specific Styles (for the profile page) */
+#settings_body {
+    text-align: center;
+    width: 88%; /* Adjust the width to fill the available space */
+    margin-left: 12%; /* Leave space for the left menu */
+    padding: 20px; /* Add padding for better spacing */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+#settings_body h1 {
+    color: white;
+}
+
+#personal_info {
+    display: flex;
+    flex-direction: column;
+    
+
+}

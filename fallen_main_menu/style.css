@@ -1,25 +1,35 @@
 * {
-    background-color: black;
-    color: white;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+}
+body{
+    background-color:#1c252a;
+    color: white;
+
 }
 
+/* Breadcrumb container */
 #breadcrumb {
     display: flex;
     align-items: center;
     padding: 10px;
+    position: relative; /* Add this line  , this matters to place the dropdown right below it */
+    background-color: rgb(75, 72, 72);
 }
+
 
 #breadcrumb_logo {
     width: auto;
     height: 80px;
+    background-color: rgb(75, 72, 72);
 }
 
 #white_dropdown_arrow{
     width: auto;
     height: 80px;
+    background-color: rgb(75, 72, 72);
 }
 
 #breadcrumb_menu {
@@ -30,17 +40,22 @@
     align-items: center;
 
     margin-left: auto;
+    background-color: rgb(75, 72, 72);
+
 
 }
 
 #breadcrumb_menu li {
     margin-right: 20px;
     left: 50%; 
+    background-color: rgb(75, 72, 72);
 
 }
 
 #breadcrumb_menu li:last-child {
     margin-right: 0;
+    background-color: rgb(75, 72, 72);
+
 }
 
 #breadcrumb_menu li a {
@@ -49,10 +64,137 @@
     color: white;
     font-weight: bold;
     font-size: 30px; /* Adjust the font size */
+    background-color: rgb(75, 72, 72);
+
 }
 
 #cart {
     width: auto;
     height: 80px;
     margin-left: auto;
+    background-color: rgb(75, 72, 72);
+
+}
+
+/* Dropdown CSS class name should match HTML */
+/* Dropdown container */
+.dropdown-menu {
+    text-align: center;
+    display: flex;
+    position: absolute; /* helps with showing it on top instead of the bottom, if taken off, it will be shown next to logo*/
+    top: 100%; /* Position below the logo ,HELPS TOO */
+    left: 0;
+    background-color: #f2f2f2; /* Grayish background color */
+    border: 1px solid #ccc;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+    z-index: 1; /* Ensure it appears above other elements */
+
+}
+
+/* Dropdown menu items */
+#dropdown-menu li {
+    
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s; /* Smooth color transition on hover */
+
+}
+
+#dropdown-menu a{
+    text-decoration: none;
+}
+
+#dropdown-menu li:hover {
+    background-color: #ddd; /* Lighter gray on hover */
+}
+
+
+
+
+/* Search input width adjusted */
+#search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 300px; /* Adjust to your preferred width */
+}
+
+
+
+
+/*for slideshow */
+.slideshow-container {
+
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%
+  }
+  
+
+
+  
+  /* Slides */
+.slides {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.slide {
+    display: none; /* Hide slides by default */
+}
+
+.slide img {
+    width: 100%; /* Stretch the image to fill the available width */
+    max-width: none; /* Remove the max-width constraint */
+    height: auto; /* Maintain the aspect ratio to prevent distortion */
+    max-height: 300px; /* Set a maximum height for the images */
+    object-fit: cover; /* Crop the image to cover the container */
+    
+}
+
+
+  /*Search button*/
+  /* Search container */
+.search-container {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Search input */
+#search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 2000px;
+    
+}
+
+/* Search button */
+#search-button {
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#search-button:hover{
+    background-color: ccc;
+}
+
+/* Search results container */
+#search-results {
+    margin-top: 10px;
 }

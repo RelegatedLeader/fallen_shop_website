@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    background-color: #054779;
+    color: white;
+}
+
+.robo_image {
+    max-width: 50%;
+    height: auto;
+}
+
+#J3-RRY{
+    max-width: 25%;
+    border-radius: 20%;
+    margin-bottom:  10px;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.text h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+
+
+#join_button{
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-weight: 100;
+
+}
+#join_button:hover{
+    background-color: gold;
+    font-weight: 100;
+    color: black;
+
+}
+
+#go_back_button{
+    
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    font-weight: 100;
+    margin-top: 50px;
+
+}
+
+#go_back_button:hover{
+    background-color: gold;
+    font-weight: 100;
+    color: black;
+}
+
+
+
+
+/*
+
+We start with a CSS reset (*) to remove any default margins, paddings, and borders.
+The body element is styled to have a background color, white text, and centered content both horizontally and 
+vertically using flexbox (display: flex; justify-content: center; align-items: center;).
+The container div is set to display: flex; to create a flex container that will hold the image and the text.
+.robo_image is styled to take up half of the container (flex: 1;) while maintaining its aspect ratio (object-fit: cover;) 
+and limiting its width to 50% of the container.
+.text is also set to take up half of the container (flex: 1;) and is centered both horizontally and vertically using flexbox (display: flex; justify-content: center; align-items: center;).
+Finally, the h1 element within .text is styled with a font size and padding to make it visually appealing.
+This combination of HTML structure and CSS styles creates a layout where the image covers half of the screen
+horizontally, and the "Join Now!" text is centered in the other half of the screen. Flexbox is used to achieve the desired layout and alignment.
+ You can adjust the styles to customize the appearance further.
+
+*/
